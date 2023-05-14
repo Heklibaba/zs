@@ -1,1 +1,145 @@
 # zs
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #bg{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 210%;
+            overflow: hidden;
+            object-fit: fill;
+        }
+        #kek{
+            position: relative;
+            text-align: center;
+            width: 80%;
+            left: 10%;  overflow: hidden;
+            object-fit: fill;
+            display: block;
+        }
+        #magazin{
+            left: 10%;
+            width: 80%;
+            height: 120px;
+            top: 125px;
+            display: block;
+            position: absolute;
+            object-fit: fill;
+            overflow: hidden;
+            bottom: 0;
+            text-align: center;
+        }
+        #hivat{
+            position: relative;
+            width: 78%;
+            left: 11%;
+            margin-top: 52px;
+            height: 5%;
+            display: block;
+            position: absolute;
+            object-fit: fill;
+            overflow: hidden;
+        }
+        table{
+            width: 70%;
+            text-align: left;
+        }
+        #szoveg{
+            position: absolute;
+            width: 80%;
+            left: 10%;
+            height: 170%;
+            margin-top: 109px;
+            display: block;
+        position: absolute;
+        object-fit: fill;
+        overflow: hidden;
+        }
+        .fele{
+            width: 50%;
+        }
+        #main6 {
+        width: 48%;
+        height: 500px;
+        top: 1050px;
+        display: block;
+        position: absolute;
+        object-fit: fill;
+        overflow: hidden;
+        bottom: 0;
+        text-align: left;
+        
+    }
+        #main7 {
+        width: 35%;
+        height: 700px;
+        top: 1100px;
+        display: block;
+        position: absolute;
+        object-fit: fill;
+        overflow: hidden;
+        bottom: 0;
+        text-align: left;
+        right: 10%;
+        text-align: center;
+    }
+    #hirlevel{
+        width: 80%;
+        left: 10%;
+        display: block;
+        position: absolute;
+        object-fit: fill;
+        overflow: hidden;
+        top: 1830px;
+        height: 120px;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <div id="bg" class="p-3 mb-2 bg-light"></div>
+    <div id="kek" class="p-3 mb-2 bg-primary text-white"><h1>Forma1 - 2021</h1>
+        <p>fontosabb új szabályok</p>
+    </div>
+    <div id="magazin" class="p-3 mb-2 bg-info text-dark">Forma1 magazinok</div>
+    <div id="hivat" class="p-3 mb-2 bg-light text-dark"><table>
+        <td style="width: 130px;"><a target="_blank" href="https://f1vilag.hu/">F1világ</a></td>
+        <td><a target="_blank" href="https://m4sport.hu/sportok/forma-1/">M4Sport - Forma1</a></td>
+        <td><a target="_blank" href="https://www.vezess.hu/forma-1/">Vezess - Forma1 melléklet</a></td>
+        <td><a target="_blank" href="https://hu.motorsport.com/f1/">Motorsport - F1</a></td>
+        <td><a target="_blank" href="#asd">Feliratkozás a hírlevélre</a></td>
+    </table></div>
+    <div id="szoveg" class="p-3 mb-2 bg-secondary text-dark ">
+        <div><img style="float: right; width: 700px;height: 450px;" src="./f1car.jpg" alt=""></div>
+        <p style="margin-bottom: 0;">
+        <h2>Új szabályok 2021-ben</h2>
+        <p><h4>Pénzügyi szabályok</h4></p>
+        <p class="fele">A bajnokságban úgynevezett költségvetési sapka került bevezetésre, aminek egyik leglényegesebb része, hogy a csapatok legfeljebb 175 millió dollárt költhetnek évente, ide nem tartoznak: a marketingköltségek, az értékcsökkenés miatti költségek, a pilóták bére, a nem Formula–1-es tevékenységre fordított összegek, a nevezési díjak, a versenyzők szuperlicencének megszerzésére fordított költségek, az év végi bónuszok, és a csapat három legmagasabb keresetű alkalmazottjának bére. Ez egy 21 futamos idényre szól, a felső határ 1 millió dollárral nő vagy csökken attól függően, hogy több vagy kevesebb nagydíjt rendeznek az adott évben. Emellett a csapatoknak be kell nyújtaniuk éves pénzügyi jelentésüket. Ha egy csapat megsérti a pénzügyi szabályzatokat, három különféle módon lehet büntetni. Az éves költségvetés túllépése esetén a csapatok a következőkre számíthatnak: bajnoki pontok levonása, tesztelési idő csökkenése, versenyeltiltás, vagy a legsúlyosabb eseteben az adott csapatot kizárhatják a bajnokságból.</p>
+        <p><h4>Technikai szabályok</h4></p>
+        <p class="fele">Mivel a sport hétéves ciklusban működik, a 2021-es világbajnokságra a jelenlegi műszaki szabályozások átdolgozását tervezik. A pilótákkal konzultációt folytattak a műszaki szabályozások kidolgozásáról, amelyeket szándékosan korlátozó jellegűeknek írtak elő annak megakadályozására, hogy a csapatok radikális terveket dolgozzanak ki, amelyek korlátozzák a versenyzők előzésének képességét. Az FIA létrehozott egy speciális munkacsoportot, amelynek feladata a szabályozásban rejlő hiányosságok azonosítása és megszüntetése a versenybeli alkalmazásuk előtt.</p>
+        <p><h4>Motor</h4></p>
+        <p class="fele">A 2021-es motorszabályozásról szóló viták 2017-ben kezdődtek és 2018 májusában zárultak le. A javasolt szabályok a motorban alkalmazott technológia egyszerűsítése érdekében a motor hőenergiavisszanyerő rendszerének (MGU-H) eltávolítását tartalmazták, miközben a maximális fordulatszámot 3000 fordulat / perc sebességgel növelték. A „plug-and-play” elnevezésű további javaslatok szerint a motorgyártókat a szabályok kötelezik arra, hogy az egyes motorkomponenseket egyedivé tegyék, lehetővé téve a csapatok számára, hogy alkatrészeiket több szállítótól szerezzék be. A javaslatokat úgy tervezték, hogy egyszerűsítsék a motor technológiáját, miközben vonzóbbá tegyék a sportot az új belépők számára. Mivel azonban egyetlen új motorgyártó cég sem kívánkozott 2021-től belépni a sportba, a meglévő beszállítók azt javasolták, hogy a teljes fejlesztési költségek csökkentése érdekében tartsák fenn a meglévő erőforrás-összetételt.</p>
+        <p><h4>Gumik</h4></p>
+        <p class="fele">A bajnokság a 13 hüvelykes kerekek helyett 18 hüvelykes kerekek használata mellett döntött 2021-től. Eredetileg azt javasolták, a gumiabroncs-melegítő paplanokat is tiltsák be, amelyek célja a gumiabroncsok optimális üzemi hőmérsékletre való felmelegítés, bár ezt a döntést utólag visszavonták, miután a Pirelli abroncs-szállító felszólalt. A gumiabroncs-melegítők helyett szabványos berendezéseket használnak, és minden csapatnak ugyanazt a terméket kell majd használni.</p></p>
+        <div id="main6"><img src="./kimi.jpg" alt="kimcsi" style="width:422,5px;height: 253,5px;"></div>
+   <div id="main7" class="text-black"> 
+    <h1>A kedvenc pilótám:</h1> 
+    <h4>Kimi Räikkönen</h4> 
+    <p>Kimi-Matias Räikkönen (Espoo, 1979. október 17. –) finnautóversenyző, 2007 Formula–1-es világbajnoka. Legismertebbbeceneve az Iceman, azaz Jégember, amely nyugodt természetéreés északi származására utal. A felirat bukósisakján, illetve balalkarjára tetoválva is látható. 2010-től ralizni kezdett, majd 2012-től visszatért a Formula–1-be a Lotus F1 Team csapatversenyzőjeként. Több ízben sikerült felállnia a dobogóra, Abu-Dzabiban csapata első győzelmét is megszerezte. 2014-benvisszaigazolt a Ferrarihoz. 2018-ban jelentették be, hogy aszerződését a Ferrarinál nem hosszabbítják meg, ezért a 2019-esversenyévadtól az Alfa Romeo pilótája lett.</p></div>
+</div>
+<div id="hirlevel" class="p-3 mb-2 bg-warning text-dark">Hírlevél feliratkozás a nyomógombra kattintva! <br>
+    <br>
+   <p> <a id="asd" href="./feliratkozas.html" class="btn btn-info" role="button">Hírlevél</a></p>
+</div>
+
+</body>
+</html>
